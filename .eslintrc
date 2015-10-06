@@ -4,11 +4,12 @@
   },
   rules: {
     "no-console": 2,
+    "semi": [2, "never"],
     "no-underscore-dangle": 0,
     "no-use-before-define": [2, "nofunc"],
     "max-len": [2, 150, 2],
     "quotes": [2, "single"],
-    "space-after-keywords": [2, "always", { checkFunctionKeyword: true } ],
+    "space-after-keywords": [2, "always"],
     "no-multi-str": 0
   },
   "settings": {
